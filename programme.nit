@@ -51,7 +51,7 @@ class Etudiant
 
 	redef fun to_string: String
 	do
-		return	 """--> Je suis un etudiant, mon nom est {{{ nom }}}, mon prenom est {{{ prenom }}}  et mon matricule est {{{ matricule }}}.
+		return	 """--> Je suis un super etudiant, mon nom est {{{ nom }}}, mon prenom est {{{ prenom }}}  et mon matricule est {{{ matricule }}}.
 			    \n--> J'ai obtennu {{{ note.length }}} note(s) qui sont : {{{ note.join (" ; ")}}}
 			    \n--> Avec une moyenne de {{{ calcul_moyenne }}}
 		      	 """	
