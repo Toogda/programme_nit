@@ -1,3 +1,6 @@
+#This code has been edited in the goal to get start with nit langage.
+
+#Class personne
 class Personne
 	protected var nom: String
 	protected var prenom: String
@@ -13,6 +16,10 @@ class Personne
 		return "Je suis une personne, mon nom est {nom} et mon prenom est {prenom}."
 	end
 end
+
+#Class Etudiant with is a specialisation of class Personne
+#this class describes stuents by name, surneame, register number and a list of mark . 
+#It also give the average using list of mark.
 
 class Etudiant
 	super Personne
@@ -51,6 +58,7 @@ class Etudiant
 	end
 end
 
+#Let's see how it works!
 
 print "---------- Test Class Personne ----------\n"
 var per1 = new Personne("KABORE", "ALI")
@@ -75,3 +83,4 @@ var etd3 = new Etudiant("KI", "ALINO", "z452", [10.0, 20.0, 30.0])
 print etd3.to_string
 
 
+#	@~THANKS~@
